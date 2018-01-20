@@ -1,0 +1,31 @@
+{
+    "name": "ashokadhikari92/testpackage",
+    "description": "A test laravel package.",
+    "type": "library",
+    "license": "AKD",
+    "homepage": "https://github.com/ashokadhikari92/testpackage",
+    "support": {
+        "issues": "https://github.com/ashokadhikari92/testpackage/issues",
+        "source": "https://github.com/ashokadhikari92/testpackage"
+    },
+    "authors": [
+        {
+            "name": "Ashok Adhikari",
+            "email": "ashok.adhikari92@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyPackage\\TestPackage\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra":{
+        "laravel": {
+            "providers": [
+                "MyPackage\\TestPackage\\TestPackageServiceProvider"
+            ]
+        }
+    }
+}
